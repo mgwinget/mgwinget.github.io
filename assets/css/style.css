@@ -697,7 +697,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("/Users/michaelwinget/Desktop/Website/mgwinget.github.io/Photos/Northeastern-Logo.png");
+  background: url("../../Photos/Northeastern-Logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   opacity: .2;
@@ -720,7 +720,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("/Users/michaelwinget/Desktop/Website/mgwinget.github.io/Photos/Tufts-Logo.png");
+  background: url("../../Photos/Tufts-Logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   opacity: .2;
