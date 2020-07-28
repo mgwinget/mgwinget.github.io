@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+hr{
+  background: grey;
+  width: 75%;
+  opacity: .5;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -705,6 +711,27 @@ section {
   width: 100%;
 }
 
+.icon-box-ucsc{
+  position: relative;;
+  z-index: -1;
+}
+
+
+.icon-box-ucsc .icon-box-background-ucsc{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../../Photos/UCSC-Logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .2;
+  height: 100%;
+  width: 100%;
+}
+
 .icon-box-tufts{
   position: relative;;
   z-index: -1;
@@ -767,7 +794,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../../Photos/Landscape.jpeg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
